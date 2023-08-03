@@ -69,7 +69,7 @@ def get_songs_by_artist(token, artist_id):
     return json_results
 
 token = get_token()
-result = search_for_artist(token, "sauti sol")
+result = search_for_artist(token, "bahati")
 artist_id = result["id"]
 songs = get_songs_by_artist(token, artist_id)
 
